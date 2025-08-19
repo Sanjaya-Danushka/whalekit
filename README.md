@@ -1,5 +1,9 @@
 🚀 Excited to share my first AUR package:aur-auto!
 
+<img width="1719" height="954" alt="xs" src="https://github.com/user-attachments/assets/108e401b-8caa-4c13-aa18-608064f6b9ae" />
+
+
+
 🐳 What? presents a modern CLI tool to autoinstall AUR packwith:
 
 Fuzzy search for packages
@@ -31,3 +35,4 @@ makepkg -si
 Your feedback is welcome! 🙌
 
 #ArchLinux #AUR #Linux #OpenSource #ShellScript #Bash #Automation #DevTools #WhaleLab #Programming #CLI
+
