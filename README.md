@@ -1,6 +1,8 @@
 🚀 Excited to share my first AUR package:aur-auto!
 
-<img width="1719" height="954" alt="xs" src="https://github.com/user-attachments/assets/108e401b-8caa-4c13-aa18-608064f6b9ae" />
+<img width="1640" height="918" alt="Screenshot_20250819_175518-1" src="https://github.com/user-attachments/assets/dbf48d38-9344-4a1e-a92d-195dcdad3139" />
+<img width="1600" height="938" alt="Screenshot_20250819_180127" src="https://github.com/user-attachments/assets/b7725d34-6eeb-4249-add5-a197d687100c" />
+
 
 
 
@@ -35,4 +37,5 @@ makepkg -si
 Your feedback is welcome! 🙌
 
 #ArchLinux #AUR #Linux #OpenSource #ShellScript #Bash #Automation #DevTools #WhaleLab #Programming #CLI
+
 
