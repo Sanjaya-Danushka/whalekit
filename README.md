@@ -1,6 +1,8 @@
 🚀 What is it?
 <img width="1561" height=<img width="1561" height="911" alt="Screenshot_20250819_213740" src="https://github.com/user-attachments/assets/88c7da05-0622-41f3-8c17-20d24b5d5ac2" />
 
+<img width="1561" height="911" alt="Screenshot_20250819_213740" src="https://github.com/user-attachments/assets/6a5caf05-570b-420c-acb9-3fdcea695df4" />
+
 
 aur-auto is a lightweight script/app that makes it easier to install packages from the Arch User Repository (AUR) without needing a full-blown helper like yay or paru.
 
@@ -49,4 +51,5 @@ aur-auto <package name>
 aur-auto swap
 
  I’ve already made changes to improve the script: 🚫 It no longer installs yay paru google-chrome visual-studio-code-bin by default when run without arguments. Now, if you run aur-auto with no args, it just prints usage help (aur-auto <package>). ⚠️ I removed the forced sudo pacman -Syu --noconfirm. The script now only installs dependencies when you confirm, so it won’t unexpectedly upgrade your system. 🔄 It doesn’t just touch the official repo anymore — AUR packages are handled safely, and system updates are left to the user. 📂 Fixed the build loop: it now cleans up properly, returns to the working directory after each package, and doesn’t reassign TMPDIR unnecessarily. ❌ Added error handling: if a build fails, the script stops and shows the error instead of blindly continuing. 🛠️ For users who only need quick installs, I agree an alias/function is simpler, but my goal with aur-auto is a lightweight tool to search, select, and install AUR packages in one go — kind of a middle ground between typing out git clone … && makepkg … and installing a full AUR helper like yay/paru. It’s not meant to replace yay or paru, just to provide a scriptable, minimal, user-friendly installer for those who want something lighter.
+
 
